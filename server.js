@@ -3,7 +3,7 @@ const multer = require('multer');
 const fetch = require('node-fetch');
 
 const app = express();
-const PORT = 3456;
+const PORT = process.env.PORT || 3456;
 const API_KEY = '21ec7a6625e2c435b0356d2f905dea73';
 const KIE_BASE = 'https://api.kie.ai/api/v1';
 const FILE_UPLOAD_URL = 'https://kieai.redpandaai.co/api/file-base64-upload';

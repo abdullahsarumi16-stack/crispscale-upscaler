@@ -1,0 +1,19 @@
+{
+  "name": "image-upscaler",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "form-data": "^4.0.5",
+    "multer": "^2.1.1",
+    "node-fetch": "^2.7.0"
+  }
+}
